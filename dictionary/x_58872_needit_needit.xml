@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="Needit" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element label="New Audio" max_length="40" name="u_audio_3" type="audio"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="New Choice" max_length="40" name="u_choice_2" type="string">
+            <choice>
+                <element label="Choice 1" sequence="0" value="Choice 1"/>
+                <element label="Choice 2" sequence="1" value="Choice 2"/>
+                <element label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element label="New Data Structure" max_length="800" name="u_data_structure_4" type="data_structure"/>
+        <element label="Delete" max_length="80" name="u_delete_record" type="field_name"/>
+        <element label="New URL" max_length="1024" name="u_url_5" type="url"/>
+    </element>
+</database>
